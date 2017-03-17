@@ -16,7 +16,7 @@
     <style type="text/css" class="silex-style"></style>
     <script type="text/javascript" class="silex-script"></script>
     <style class="silex-inline-styles" type="text/css">
-        .body-initial {
+                .body-initial {
             background-color: rgba(255, 255, 255, 1);
         }
         
@@ -84,26 +84,53 @@
             opacity: 0.5;
         }
         
-        .silex-id-1488378519167-4 {
-            min-height: 200px;
-            width: 1200px;
-            background-color: rgba(0, 0, 0, 1);
-            top: 1492px;
-            left: 4px;
-        }
-        
         .silex-id-1489067807026-0 {
-            min-height: 920px;
-            width: 351px;
-            background-color: rgb(255, 255, 255);
-            top: 100px;
-            left: 496px;
-        }
+            border: none;
+            color: #AECFE5;
+            /*  * -- menu styles --
+ * i want to customize how my .pure-menu looks at the top of the page
+ */
+            .home-menu {
+                padding: 0.5em;
+                text-align: center;
+                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.10);
+                .home-menu {
+                    background: #2d3e50;
+                }
+                .pure-menu.pure-menu-fixed {
+                    /* fixed menus normally have a border at the bottom. */
+                    border-bottom: none;
+                    /* i need a higher z-index here because of the scroll-over effect. */
+                    z-index: 4;
+                }
+                .home-menu .pure-menu-heading {
+                    color: white;
+                    font-weight: 400;
+                    font-size: 120%;
+                }
+                .home-menu .pure-menu-selected a {
+                    color: white;
+                }
+                .home-menu a {
+                    color: #6FBEF3;
+                    left: -172px;
+                    top: -12px;
+                }
+                .silex-id-1488378519167-4 {
+                    min-height: 200px;
+                    width: 1200px;
+                    background-color: rgba(0, 0, 0, 1);
+                    top: 1492px;
+                    left: 4px;
+                }
     </style>
     <title></title>
     <script type="text/javascript" class="silex-json-styles">
-        [{"desktop":{"body-initial":{"background-color":"rgba(255,255,255,1)"},"silex-id-1474394621033-3":{"min-height":"600px","top":"5px","left":"0px"},"silex-id-1474394621032-2":{"min-height":"100px","background-color":"rgb(255, 255, 255)"},"silex-id-1474394605264-1":{"min-height":"100px","width":"100px","top":"100px","left":"100px"},"silex-id-1474394605263-0":{"min-height":"100px","background-color":"transparent"},"silex-id-1442914737143-3":{"min-height":"36px","width":"960px","top":"37px","left":"1px"},"silex-id-1488377103841-0":{"min-height":"290px","width":"1200px","background-color":"rgba(0,0,0,1)","top":"1px","left":"4px"},"silex-id-1488377545630-1":{"min-height":"1200px","width":"1200px","background-color":"rgb(255, 255, 255)","top":"290px","left":"4px","background-image":"url('TalesofPirates_8.jpg')","background-repeat":"no-repeat","background-size":"cover","background-attachment":"fixed","background-position":"center center"},"silex-id-1488378519167-4":{"min-height":"200px","width":"1200px","background-color":"rgba(0,0,0,1)","top":"1492px","left":"4px"},"silex-id-1488378865873-5":{"min-height":"290px","width":"1200px","top":"0px","left":"0px"},"silex-id-1488393172217-10":{"min-height":"800px","width":"584px","background-color":"rgba(0,0,0,1)","top":"60px","left":"308px","opacity":"0.5"},"silex-id-1488394947411-11":{"min-height":"50px","width":"1182px","background-color":"rgba(0,0,0,1)","top":"0px","left":"10px","opacity":"0.5"},"silex-id-1488395260576-12":{"min-height":"800px","width":"290px","background-color":"rgba(0,0,0,1)","top":"60px","left":"902px","opacity":"0.5"},"silex-id-1488395383910-13":{"min-height":"800px","width":"286px","background-color":"rgba(0,0,0,1)","top":"60px","left":"10px","opacity":"0.5"},"silex-id-1489067807026-0":{"min-height":"920px","width":"351px","background-color":"rgb(255, 255, 255)","top":"100px","left":"496px"}},"mobile":{},"componentData":{}}]
+        [{"desktop":{"body-initial":{"background-color":"rgba(255,255,255,1)"},"silex-id-1474394621033-3":{"min-height":"600px","top":"5px","left":"0px"},"silex-id-1474394621032-2":{"min-height":"100px","background-color":"rgb(255, 255, 255)"},"silex-id-1474394605264-1":{"min-height":"100px","width":"100px","top":"100px","left":"100px"},"silex-id-1474394605263-0":{"min-height":"100px","background-color":"transparent"},"silex-id-1442914737143-3":{"min-height":"36px","width":"960px","top":"37px","left":"1px"},"silex-id-1488377103841-0":{"min-height":"290px","width":"1200px","background-color":"rgba(0,0,0,1)","top":"1px","left":"4px"},"silex-id-1488377545630-1":{"min-height":"1200px","width":"1200px","background-color":"rgb(255, 255, 255)","top":"290px","left":"4px","background-image":"url('TalesofPirates_8.jpg')","background-repeat":"no-repeat","background-size":"cover","background-attachment":"fixed","background-position":"center center"},"silex-id-1488378519167-4":{"min-height":"200px","width":"1200px","background-color":"rgba(0,0,0,1)","top":"1492px","left":"4px"},"silex-id-1488378865873-5":{"min-height":"290px","width":"1200px","top":"0px","left":"0px"},"silex-id-1488393172217-10":{"min-height":"800px","width":"584px","background-color":"rgba(0,0,0,1)","top":"60px","left":"308px","opacity":"0.5"},"silex-id-1488394947411-11":{"min-height":"50px","width":"1182px","background-color":"rgba(0,0,0,1)","top":"0px","left":"10px","opacity":"0.5"},"silex-id-1488395260576-12":{"min-height":"800px","width":"290px","background-color":"rgba(0,0,0,1)","top":"60px","left":"902px","opacity":"0.5"},"silex-id-1488395383910-13":{"min-height":"800px","width":"286px","background-color":"rgba(0,0,0,1)","top":"60px","left":"10px","opacity":"0.5"},"silex-id-1489067807026-0":{"border":"none","color":"#AECFE5","/*  * -- menu styles --\n * i want to customize how my .pure-menu looks at the top of the page\n */\n\n.home-menu {\n    padding":"0.5em","text-align":"center","box-shadow":"0 1px 1px rgba(0,0,0, 0.10)",".home-menu {\n    background":"#2d3e50","}\n\n.pure-menu.pure-menu-fixed {\n    /* fixed menus normally have a border at the bottom. */\n    border-bottom":"none","/* i need a higher z-index here because of the scroll-over effect. */\n    z-index":"4","}\n\n.home-menu .pure-menu-heading {\n    color":"white","font-weight":"400","font-size":"120%","}\n\n.home-menu .pure-menu-selected a {\n    color":"white","}\n\n.home-menu a {\n    color":"#6FBEF3"}},"mobile":{},"componentData":{}}]
     </script>
+
+
+
 
 
 
@@ -156,6 +183,130 @@
         <div data-silex-type="container" class="editable-style silex-id-1488394947411-11 container-element" data-silex-id="silex-id-1488394947411-11"></div>
         <div data-silex-type="container" class="editable-style silex-id-1488395260576-12 container-element" data-silex-id="silex-id-1488395260576-12"></div>
         <div data-silex-type="container" class="editable-style silex-id-1488395383910-13 container-element" data-silex-id="silex-id-1488395383910-13"></div>
+        <div data-silex-type="html" class="editable-style silex-id-1489067807026-0 html-element" data-silex-id="silex-id-1489067807026-0">
+            <div class="silex-element-content">
+                <meta charset="utf-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <meta name="description" content="A layout example that shows off a responsive product landing page.">
+
+                <title>Landing Page – Layout Examples – Pure</title>
+
+
+
+
+                <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+
+
+
+                <!--[if lte IE 8]>
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+  
+<![endif]-->
+                <!--[if gt IE 8]><!-->
+
+                <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+
+                <!--<![endif]-->
+
+
+
+                <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+
+
+
+                <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/marketing-old-ie.css">
+    <![endif]-->
+                <!--[if gt IE 8]><!-->
+                <link rel="stylesheet" href="css/layouts/marketing.css">
+                <!--<![endif]-->
+
+
+
+
+
+
+
+
+                <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
+                    <ul class="pure-menu-list">
+                        <li class="pure-menu-item pure-menu-selected"><a href="index.html">Home</a></li>
+                        <li class="pure-menu-item">&lt;<a href="#">Contact</a>
+                            <ul>
+                                <li><a class="mdl-navigation__link" href="#">Player Court</a></li>
+                                <li><a class="mdl-navigation__link" href="#">Feedback</a></li>
+                                <li class="nav-item dropdown btn-group"><a class="mdl-navigation__link" href="#">Concerning Staff</a>
+                                    <ul>
+                                        <li><a class="mdl-navigation__link" href="#">Staff Requirements</a></li>
+                                        <li><a class="mdl-navigation__link" href="#">Staff Applications</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown btn-group"><a class="mdl-navigation__link" href="#">Staff Pages</a>
+                                    <ul>
+                                        <li><a class="mdl-navigation__link" href="#">Proceedures</a></li>
+                                        <li><a class="mdl-navigation__link" href="#">Pending Hires</a></li>
+                                        <li><a class="mdl-navigation__link" href="#">Significant Staff Application</a></li>
+                                    </ul>
+                                </li>
+                                <li><a class="mdl-navigation__link" href="#">Staff Status</a></li>
+                            </ul>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a class="mdl-navigation__link" href="#">Game Guide</a>
+                            <ul>
+                                <li><a class="mdl-navigation__link" href="#">Updates</a></li>
+                                <li><a class="mdl-navigation__link" href="#">Clients</a></li>
+                                <li><a class="mdl-navigation__link" href="#">Classes</a></li>
+                                <li><a class="mdl-navigation__link" href="#">Quest Database</a></li>
+                                <li><a href="#">Maps</a></li>
+                                <li><a href="#">Gems</a></li>
+                                <li><a href="#">Gem Guide</a></li>
+                                <li><a href="#">Legendary Equipment</a></li>
+                            </ul>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#">Market</a>
+                            <ul>
+                                <li><a href="#">Award Center</a></li>
+                                <li><a href="#">Item Mall</a></li>
+                                <li><a href="#">Vote for Credits</a></li>
+                                <li><a href="#">Purchase Item Mall Points</a></li>
+                                <li><a href="#">Decor &amp; Apparel Shop</a></li>
+                            </ul>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#">Community</a>
+                            <ul>
+                                <li><a href="#">News</a></li>
+                                <li><a href="#">Forum</a></li>
+                                <li><a href="#">Rankings</a></li>
+                                <li><a href="#">Family Photos</a></li>
+                                <li><a href="#">Rankings</a></li>
+                            </ul>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#">Rules &amp; Regulations</a>
+                            <ul>
+                                <li><a href="#">Hacked Directory</a></li>
+                                <li><a href="#">Terms of Service</a></li>
+                                <li><a href="#">Rules &amp; Regulations</a></li>
+                                <li><a href="#">Player Government</a></li>
+                            </ul>
+                        </li>
+                        <li class="pure-menu-item">
+                            <a href="#">Staff Lounge</a>
+                            <ul>
+                                <li><a href="#">Staff</a></li>
+                                <li><a href="#">Report System</a></li>
+                                <li><a href="#">Staff Rules</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
     <div data-silex-type="container" class="editable-style silex-id-1488378519167-4 container-element" data-silex-id="silex-id-1488378519167-4"></div>
 
@@ -166,66 +317,9 @@
 
 
 
-    <div data-silex-type="html" class="editable-style silex-id-1489067807026-0 html-element" data-silex-id="silex-id-1489067807026-0">
-        <div class="silex-element-content">
-            <link rel="stylesheet" href="%0Ahttps://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-            <script src="%0Ahttps://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-            <script src="%0Ahttps://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js%0A"></script>
-            <style>
-                .dropdown-submenu {
-                    position: relative;
-                }
-                
-                .dropdown-submenu .dropdown-menu {
-                    top: 0;
-                    left: 100%;
-                    margin-top: -1px;
-                }
-            </style>
 
 
 
-            <div class="container">
-                <div class="dropdown">
-                    <ul class="dropdown-menu">
-                        <li><a tabindex="-1" href="#">HTML</a></li>
-                        <li><a tabindex="-1" href="#">CSS</a></li>
-                        <li class="dropdown-submenu">
-                            <a class="test" tabindex="-1" href="#">New
-dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a tabindex="-1" href="#">2nd level
-dropdown</a></li>
-                                <li><a tabindex="-1" href="#">2nd level
-dropdown</a></li>
-                                <li class="dropdown-submenu">
-                                    <a class="test" href="#">Another
-dropdown <span class="caret"></span></a>
-                                    <ul class="dropdown-menu">
-                                        <li><a href="#">3rd level
-dropdown</a></li>
-                                        <li><a href="#">3rd level
-dropdown</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-
-            <script>
-                $(document).ready(function(){
-                  $('.dropdown-submenu a.test').on("click", function(e){
-                    $(this).next('ul').toggle();
-                    e.stopPropagation();
-                    e.preventDefault();
-                  });
-                });
-            </script>
-        </div>
-    </div>
 </body>
 
 </html>
